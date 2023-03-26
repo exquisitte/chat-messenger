@@ -24,4 +24,4 @@ const Register = () => {
   );
 };
 
-export default Register
+export default Register;

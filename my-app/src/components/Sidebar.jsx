@@ -1,10 +1,15 @@
+import Navbar from "./Navbar"
+import Chats from "./Chats"
+import Search from "./Search"
 import React from 'react'
 
 const Sidebar = () => {
   return (
-    <div>
-      i
-    </div>
+    <div className="sidebar">
+      <Navbar />
+      <Search />
+      <Chats />
+  </div>
   )
 }
 
